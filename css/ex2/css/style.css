@@ -4,7 +4,7 @@ html {
 }
 
 body {
-    font-family: 'Sawarabi Mincho', sans-serif;
+    font-family: 'Shippori Mincho', serif;
 }
 
 h2,h3 {
@@ -12,6 +12,6 @@ h2,h3 {
 }
 
 .container {
-    width: 80%;
+    width:90%;
     margin: auto;
 }
