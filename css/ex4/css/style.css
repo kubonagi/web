@@ -1,0 +1,66 @@
+@charset "utf-8";
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin-bottom: 1rem;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: 'Shippori Mincho', serif;
+}
+
+h2,h3 {
+    font-family: 'Sawarabi Gothic', sans-serif;
+    margin-bottom: 1rem;
+}
+
+.container {
+    width: 70%;
+    margin: 2rem auto;
+}
+
+.inline-block {
+    display: inline-block;
+    width: 24%;
+    /* 垂直位置揃え */
+    vertical-align: top;
+}
+
+.inline-block>a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color: blue;
+}
+
+/* 文字の大きさ */
+h1 {
+    font-size: 1.6rem;
+}
+
+h2 {
+    font-size: 1.2rem;
+}
+
+p {
+    line-height: 1.6rem;
+}
+
+.mb-1rem {
+    margin-bottom: 1rem;
+}
+
+/* flex コンテナの最小設定 */
+.flex {
+    display: flex;
+}
+
+/* flex アイテムの最小設定 */
+.item {
+    flex: auto;
+    width: 33%;
+}
