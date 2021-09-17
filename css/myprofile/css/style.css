@@ -29,24 +29,20 @@ h1 {
 }
 
 h2 {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
+    line-height: 1;
 }
 
 p {
     line-height: 2rem;
 }
 
-.mb-1rem {
-    margin-bottom: 1rem;
+.mb-2rem {
+    margin-bottom: 2rem;
+    font-size: 22px;
+    line-height: 3rem;
 }
 
-/* flex コンテナの最小設定 */
-.flex {
-    display: flex;
-}
-
-/* flex アイテムの最小設定 */
-.item {
-    flex: auto;
-    width: 33%;
+.margin {
+    margin: 1% 0;
 }
