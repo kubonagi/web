@@ -34,15 +34,40 @@ h2 {
 }
 
 p {
+    line-height: 3rem;
+    margin-bottom: 2rem;
+}
+
+/* .mb-2rem {
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+    font-size: 22px;
+    line-height: 3rem;
+} */
+
+.margin {
+    margin: 1% 0 5px;
+}
+
+.margin2 {
+    margin: 0 3%;
     line-height: 2rem;
 }
 
-.mb-2rem {
+/* 横並び */
+.flex {
+    display: flex; /*横並び*/
+}
+.flex .image {
+    width: 950px; /*画像サイズ指定*/
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+    position: static;
+}
+.flex .text {
     margin-bottom: 2rem;
+    margin-left: 2rem;
     font-size: 22px;
     line-height: 3rem;
-}
-
-.margin {
-    margin: 1% 0 0rem;
 }
