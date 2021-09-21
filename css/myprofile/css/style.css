@@ -59,11 +59,10 @@ p {
     display: flex; /*横並び*/
 }
 .flex .image {
-    width: 950px; /*画像サイズ指定*/
     margin: 0;
-    padding: 0;
-    overflow: auto;
-    position: static;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 20px;
 }
 .flex .text {
     margin-bottom: 2rem;
