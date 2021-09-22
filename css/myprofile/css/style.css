@@ -13,7 +13,7 @@ body {
     font-family: 'Shippori Mincho', serif;
 }
 
-h1,h2,h3 {
+h1,h2,h3,th,td {
     font-family: 'Sawarabi Gothic', sans-serif;
     margin-bottom: 1rem;
 }
@@ -64,9 +64,36 @@ p {
     margin-bottom: 20px;
     margin-left: 20px;
 }
-.flex .text {
+/* .flex .text {
     margin-bottom: 2rem;
     margin-left: 2rem;
     font-size: 22px;
     line-height: 3rem;
+} */
+
+table,th,td {
+    border: solid 1px #aaaaaa;
+}
+
+table {
+    margin-bottom: 2rem;
+    margin-left: 3rem;
+    font-size: 22px;
+    line-height: 3rem;
+    border-collapse: collapse;
+}
+
+th,td {
+    padding: 10px 20px 10px 20px;
+}
+
+th {
+    width: 250px;
+    background-color: #eeb749;
+    text-align: left;
+}
+
+td {
+    width: 450px;
+    background-color: #ebd69e;
 }
