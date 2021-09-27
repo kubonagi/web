@@ -3,6 +3,8 @@
 *, *::before, *::after {
     box-sizing: border-box;
     margin-bottom: 1rem;
+    float: none;
+	position: static;
 }
 
 html {
@@ -12,7 +14,10 @@ html {
 body {
     font-family: 'Shippori Mincho', serif;
 }
-
+h1 {
+    padding-top: 2rem;
+    padding-left: 2rem;
+}
 h1,h2,h3,th,td {
     font-family: 'Sawarabi Gothic', sans-serif;
     margin-bottom: 1rem;
@@ -20,7 +25,7 @@ h1,h2,h3,th,td {
 
 .container {
     width: 90%;
-    margin: 2.5rem auto;
+    margin: 2,5rem auto;
 }
 
 /* 文字の大きさ */
@@ -38,38 +43,26 @@ p {
     margin-bottom: 2rem;
 }
 
-/* .mb-2rem {
-    margin-bottom: 2rem;
-    margin-left: 2rem;
-    font-size: 22px;
-    line-height: 3rem;
-} */
-
-.margin {
-    margin: 1% 0 5px;
-}
-
-.margin2 {
-    margin: 0 3%;
-    line-height: 2rem;
-}
-
-/* 横並び */
-.flex {
-    display: flex; /*横並び*/
-}
-.flex .image {
+img {
+	max-width: 100%;
+	height: auto;
     margin: 0;
     margin-top: 10px;
     margin-bottom: 20px;
-    margin-left: 20px;
+    margin-left: 40px;
 }
-/* .flex .text {
-    margin-bottom: 2rem;
-    margin-left: 2rem;
-    font-size: 22px;
-    line-height: 3rem;
-} */
+
+.mg {
+    margin: 1% 0 5px;
+    padding-top: 1%;
+    padding-left: 25px;
+}
+
+.mg2 {
+    margin: 0 3%;
+    line-height: 2rem;
+    padding-left: 30px;
+}
 
 table,th,td {
     border: solid 1px #aaaaaa;
@@ -77,7 +70,7 @@ table,th,td {
 
 table {
     margin-bottom: 2rem;
-    margin-left: 3rem;
+    margin-left: 2rem;
     font-size: 22px;
     line-height: 3rem;
     border-collapse: collapse;
@@ -96,4 +89,10 @@ th {
 td {
     width: 450px;
     background-color: #ebd69e;
+}
+
+@media screen and (max-width:480px) {
+	table,.mg2 {
+		min-width: 500px;
+	}
 }
